@@ -1,4 +1,4 @@
-package de.ur.mi.android.base;
+package de.ur.mi.android.u04todoliste;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,5 +10,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 }

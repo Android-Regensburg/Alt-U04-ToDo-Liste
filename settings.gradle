@@ -1,2 +1,2 @@
-rootProject.name='Android-Basisapplikation'
+rootProject.name='U04-ToDo-Liste'
 include ':app'
