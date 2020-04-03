@@ -1,22 +1,21 @@
-package de.ur.mi.android.base;
+package de.ur.mi.android.u04todoliste;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText input;
-    private Button addButton;
+    private EditText etTaskInput;
+    private ImageButton btnAdd;
     private ListView listView;
     private ArrayAdapter<String> adapter;
     private ArrayList<String> todoList;
@@ -28,19 +27,21 @@ public class MainActivity extends AppCompatActivity {
 
         findViews();
         setupViews();
-
     }
 
-    //Findet alle benötigten Views über findViewById und speichert sie in den Instanzvariablen ab
+    /**
+     * Findet alle benötigten Views über findViewById und speichert sie in den jeweiligen Instanzvariablen ab
+     */
     private void findViews() {
-        input = findViewById(R.id.todo_editText);
-        addButton = findViewById(R.id.todo_button);
+        etTaskInput = findViewById(R.id.et_task);
+        btnAdd = findViewById(R.id.btn_add);
         listView = findViewById(R.id.todo_listView);
     }
 
-    //Initialisiert die Liste und erstellt den OnClickListener für den "Add" Knopf
+    /**
+     * Initialisiert die Liste und erstellt den OnClickListener für den "Add" Knopf
+     */
     private void setupViews() {
-        //List
         todoList = new ArrayList<>();
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, todoList);
         listView.setAdapter(adapter);
@@ -53,18 +54,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //Button
-        addButton.setOnClickListener(new View.OnClickListener() {
+        btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 //Liest den Inhalt der TextView und trimmt alle vorangehenden und nachfolgenden Leerzeichen
-                String newTask = input.getText().toString().trim();
+                String newTask = etTaskInput.getText().toString().trim();
 
                 //Falls der Inhalt nicht leer ist wird er zur Liste hinzugefügt und die TextView wird für die nächste Eingabe zurückgesetzt
                 if (!newTask.isEmpty()) {
                     todoList.add(newTask);
                     adapter.notifyDataSetChanged();
-                    input.setText("");
+                    etTaskInput.setText("");
                 }
             }
         });
