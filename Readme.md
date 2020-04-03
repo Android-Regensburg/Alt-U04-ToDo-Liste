@@ -47,8 +47,8 @@ Große Teile dieser Anleitung wurden aus der Übungsaufgabe 4 des Sommersemester
 ## Anhang
 ### Screenshots
 
-<img src="./docs/screenshot-1.png" alt="Startbildschirm der App" width="250"/>
+<img src="./docs/screenshot1.png" alt="Startbildschirm der App" width="250"/>
 
-<img src="./docs/screenshot-2.png" alt="Startbildschirm und Eingabe der App" width="250"/>
+<img src="./docs/screenshot2.png" alt="Startbildschirm und Eingabe der App" width="250"/>
 
-<img src="./docs/screenshot-3.png" alt="Startbildschirm und ListView Anzeige der App" width="250"/>
+<img src="./docs/screenshot3.png" alt="Startbildschirm und ListView Anzeige der App" width="250"/>
