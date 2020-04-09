@@ -2,10 +2,6 @@
 
 ![Cover für die vierte Übungsaufgabe](./docs/cover.png)
 
-## Zweck
-
-In dieser Aufgabe sollen Sie eine einfache ToDo-Liste erstellen. Sie sollten bereits damit vertraut sein wie man `Views` aus dem Layout in einer Activity intialisiert. Speziell geübt werden sollen dadurch der Umgang mit `ListView` und `ArrayAdapter`.
-
 ## Downloads
 
 - [Download des Starterpakets](https://github.com/Android-Regensburg/U04-ToDo-Liste/archive/master.zip)
@@ -13,7 +9,9 @@ In dieser Aufgabe sollen Sie eine einfache ToDo-Liste erstellen. Sie sollten ber
 
 ## Aufgabe
 
-Erstellen Sie eine **ToDo-Liste**, die es dem Benutzer erlaubt Aufgaben über ein Eingabefeld (`EditText`) zu erstellen. Die eingegebenen Aufgaben werden in einem `ListView` angezeigt und können gelöscht werden, in dem der Benutzer länger auf den entsprechenden Eintrag in der Liste klickt (`OnItemLongClick()`). Speichern Sie die Aufgaben als String in einer entsprechenden `ArrayList` und  nutzen Sie zur Anbindung an das *User Interface* einen `ArrayAdapter`.
+Erstellen Sie eine **ToDo-Liste**, die es dem Benutzer erlaubt Aufgaben über ein Eingabefeld (`EditText`) zu erstellen. Die eingegebenen Aufgaben werden in einem `ListView` angezeigt und können gelöscht werden, in dem der Benutzer länger auf den entsprechenden Eintrag in der Liste klickt (`OnItemLongClick()`). Speichern Sie die Aufgaben als String in einer entsprechenden `ArrayList` und  nutzen Sie zur Anbindung an das *User Interface* einen `ArrayAdapter`.In dieser Aufgabe sollen Sie eine einfache ToDo-Liste erstellen. Sie sollten bereits damit vertraut sein wie man `Views` aus dem Layout in einer Activity intialisiert. Speziell geübt werden sollen dadurch der Umgang mit `ListView` und `ArrayAdapter`.
+
+<img src="./docs/screenshot3.png" alt="Startbildschirm und ListView Anzeige der App" width="250"/>
 
 ## Hinweise
 
@@ -42,7 +40,7 @@ Versuchen Sie „ordentlichen“ Code zu erstellen. Lagern Sie Teilaufgaben in M
 5. Erstellen Sie anschließend  einen `ArrayAdapter` für den entsprechenden Datentyp. Dieser erwartet für die Listeneinträge das Layout `android.R.layout.simple_list_item_1` und greift als Datenbasis auf Ihre Liste zu. Verbinden Sie den Adapter mit dem `ListView`.
 
 ## Quellen
-Große Teile dieser Anleitung wurden aus der Übungsaufgabe 4 des Sommersemesters 2013 von Thomas Wagner und Thomas Wilhelm übernommen welche von Alexander Bazo und Tim eichinger überarbeitet wurde.
+Große Teile dieser Anleitung wurden aus der Übungsaufgabe 4 des Sommersemesters 2013 von Thomas Wagner und Thomas Wilhelm übernommen welche von Alexander Bazo und Tim Eichinger überarbeitet wurde.
 
 ## Anhang
 ### Screenshots
