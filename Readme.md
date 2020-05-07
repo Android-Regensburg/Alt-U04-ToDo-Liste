@@ -1,17 +1,34 @@
+---
+title: ToDo-Liste
+author: Zuletzt bearbeitet von Tim Eichinger
+documentclass: scrartcl
+classoption:
+  - a4paper
+header-includes: |
+    \usepackage{german} 
+    \usepackage[a4paper,left=2.5cm, right=2.5cm,top=2.5cm, bottom=3cm]{geometry}
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhf{}
+    \rhead{Mobile Apps für Android}
+    \lhead{Übungsaufgaben}
+    \cfoot{\includegraphics[height=2cm]{docs/footer.png}}
+    \fancypagestyle{plain}{
+      \fancyhf{}
+      \rhead{Mobile Apps für Android}
+      \lhead{Übungsaufgaben}
+      \cfoot[C]{\includegraphics[height=2cm]{docs/footer.png}}}
+---
+
 # U04 | ToDo-Liste
 
-![Cover für die vierte Übungsaufgabe](./docs/cover.png)
-
-## Downloads
-
-- [Download des Starterpakets](https://github.com/Android-Regensburg/U04-ToDo-Liste/archive/master.zip)
-- [Download des Lösungsvorschlag](https://github.com/Android-Regensburg/U04-ToDo-Liste/archive/solution.zip)
+![](./docs/cover.png)
 
 ## Aufgabe
 
 Erstellen Sie eine **ToDo-Liste**, die es dem Benutzer erlaubt Aufgaben über ein Eingabefeld (`EditText`) zu erstellen. Die eingegebenen Aufgaben werden in einem `ListView` angezeigt und können gelöscht werden, in dem der Benutzer länger auf den entsprechenden Eintrag in der Liste klickt (`OnItemLongClick()`). Speichern Sie die Aufgaben als String in einer entsprechenden `ArrayList` und  nutzen Sie zur Anbindung an das *User Interface* einen `ArrayAdapter`. Sie sollten bereits damit vertraut sein wie man `Views` aus dem Layout in einer Activity intialisiert. Speziell geübt werden sollen dadurch der Umgang mit `ListView` und `ArrayAdapter`.
 
-<img src="./docs/screenshot-3.png" alt="Startbildschirm und ListView Anzeige der App" width="250"/>
+\pagebreak
 
 ## Hinweise
 
@@ -40,13 +57,13 @@ Versuchen Sie „ordentlichen“ Code zu erstellen. Lagern Sie Teilaufgaben in M
 5. Erstellen Sie anschließend  einen `ArrayAdapter` für den entsprechenden Datentyp. Dieser erwartet für die Listeneinträge das Layout `android.R.layout.simple_list_item_1` und greift als Datenbasis auf Ihre Liste zu. Verbinden Sie den Adapter mit dem `ListView`.
 
 ## Quellen
-Große Teile dieser Anleitung wurden aus der Übungsaufgabe 4 des Sommersemesters 2013 von Thomas Wagner und Thomas Wilhelm übernommen welche von Alexander Bazo und Tim Eichinger überarbeitet wurde.
 
-## Anhang
-### Screenshots
+Die Aufgabe wurde ursprünglich von Thomas Wagner und Thomas Wilhelm erstellt und im Anschluss von Alexander Bazo und Tim Eichinger überarbeitet.
 
-<img src="./docs/screenshot-1.png" alt="Startbildschirm der App" width="250"/>
+\pagebreak
 
-<img src="./docs/screenshot-2.png" alt="Startbildschirm und Eingabe der App" width="250"/>
+## Screenshots der Anwendung
 
-<img src="./docs/screenshot-3.png" alt="Startbildschirm und ListView Anzeige der App" width="250"/>
+| | | |
+|-|-|-|
+|![Screenshot der Laufapp](./docs/screenshot-1.png ){ height=8cm } |![Screenshot der Laufapp](./docs/screenshot-2.png ){ height=8cm } |![Screenshot der Laufapp](./docs/screenshot-3.png ){ height=8cm } |
