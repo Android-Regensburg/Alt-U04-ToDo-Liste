@@ -1,7 +1,7 @@
 {
   "title": "ToDo-Liste",
-  "abstract": "Bei dieser Aufgabe ...",
-  "hasStarterCode": false,
+  "abstract": "Bei dieser Aufgabe wird ihr Wissen über bereits bekannte Layout-Elemente weiter vertieft. Zudem lernen Sie mit der ListView eine Möglichkeit kennen, mit der Sie eine Liste von \"scrollbaren\" Items auf dem Display darstellen. Des Weiteren lernen Sie, wie man einzelne Items zu einer ListView hinzufügt, auf diese zugreift und Sie dann auch wieder entfert.",
+  "hasStarterCode": true,
   "hasSolutionCode": true,
   "solutionAvailableOn": "2021-05-13"
 }
