@@ -1,6 +1,6 @@
 {
   "title": "ToDo-Liste",
-  "abstract": "Bei dieser Aufgabe wird ihr Wissen über bereits bekannte Layout-Elemente weiter vertieft. Zudem lernen Sie mit der ListView eine Möglichkeit kennen, mit der Sie eine Liste von \"scrollbaren\" Items auf dem Display darstellen. Des Weiteren lernen Sie, wie man einzelne Items zu einer ListView hinzufügt, auf diese zugreift und Sie dann auch wieder entfert.",
+  "abstract": "Bei dieser Aufgabe lernen Sie mit der ListView eine Möglichkeit kennen, eine Liste von \"scrollbaren\" Items auf dem Display zu repräsentieren. Mithilfe eines ArrayAdapters können Sie Datenstrukturen aus ihrem Code an das User Interface anbinden und diese als einzelne ListView-Items darstellen. Sie lernen zudem, wie neue Items zu dieser ListView hinzugefügt, auf bestehende zugegriffen, oder diese auch wieder entfernt werden können.",
   "hasStarterCode": true,
   "hasSolutionCode": true,
   "solutionAvailableOn": "2021-05-13"
