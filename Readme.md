@@ -32,4 +32,4 @@ Versuchen Sie „ordentlichen“ Code zu erstellen. Lagern Sie Teilaufgaben in M
 5. Erstellen Sie anschließend  einen `ArrayAdapter` für den entsprechenden Datentyp. Dieser erwartet für die Listeneinträge das Layout `android.R.layout.simple_list_item_1` und greift als Datenbasis auf Ihre Liste zu. Verbinden Sie den Adapter mit dem `ListView`.
 
 ## Screenshots der Anwendung
-|![Screenshot der Laufapp](./docs/screenshot-1.png ) |![Screenshot der Laufapp](./docs/screenshot-2.png ) |![Screenshot der Laufapp](./docs/screenshot-3.png ) |
+![Screenshots der ToDo-App](./docs/screenshots.png )
